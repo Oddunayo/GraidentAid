@@ -1,0 +1,15 @@
+dd {
+  background-color: greenyellow;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+dt {
+  font-family: sans-serif;
+  color: red;
+}
+nav a{
+  border: solid;
+  border-style: dashed;
+  color: black;
+  border-radius: 6px;
+}

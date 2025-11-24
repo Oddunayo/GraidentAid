@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--structural elements-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Obadara Basit" />
+    <title>Texting Out all the Html Elements</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <nav>
+        <a href="#form">Media</a>
+    </nav>
+    <!--text content-->
+    <h1>here <mark>are</mark> some texts</h1>
+    <h2>here are some texts</h2>
+    <h3>here are some texts</h3>
+    <h4>here are some texts</h4>
+    <h5>here are <sup>some texts</sup></h5>
+    <h6>here are <sub>some texts</sub></h6>
+    <p>here are some texts</p>
+
+    <!--link and image-->
+    <a href="twitter.com" title="google">click here to go to twitter</a><br /></br>
+    <figcaption>My Picture</figcaption>
+    <figure><img src="blacknaruto.png" alt="image" height="120px" width="120px" /></figure>
+    <!--lists-->
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ol>
+    <dl>
+        <dt>Movies i like</dt>
+        <dd>Django <span>Unchained</span></dd>
+        <dd>The Hateful eight</dd>
+        <dd>Naked Weapon</dd>
+    </dl>
+    <table style="border: 2px solid rgb(153, 35, 35); padding: 5px">
+        <tr>
+            <th scope="col">Header 1</th>
+            <th scope="col">Header 2</th>
+            <th scope="col">Header 3</th>
+        </tr>
+        <tr>
+            <th scope="row">Row 1</th>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>
+        </tr>
+        <tr>
+            <th scope="row">Row 2</th>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+        </tr>
+    </table>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="/submit-form" method="post" id="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <br />
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required /><br />
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+            <br />
+            <button type="submit">Submit</button>
+        </form>
+        <aside>
+            <summary>An Aside</summary>
+            <details>This is just me testing out all the html elements i know.</details>
+        </aside>
+    </section>
+    <section>
+        <audio width="240px" height="240px" controls autoplay muted>
+            <source src="" type="audio/mp3">
+        </audio>
+        <video width="240px" height="240px" controls autoplay muted>
+            <source src="" type="video/mp4">
+        </video>
+    </section>
+</body>
+
+</html>
